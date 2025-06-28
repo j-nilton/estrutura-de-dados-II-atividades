@@ -26,18 +26,6 @@ Implementação completa de uma **Árvore Binária de Busca** (Binary Search Tre
 | `posOrdem()` | Esquerda → Direita → Raiz | O(n) |
 | `buscaEmLargura()` | Por níveis (BFS) | O(n) |
 
-_* Complexidade assume árvore balanceada_
-
-## Vantagens
-- **Busca rápida** - Mais eficiente que arrays/listas para buscas
-- **Inserção/remoção eficiente** - Melhor que arrays para dados dinâmicos
-- **Escalabilidade** - Desempenho logarítmico para operações básicas
-
-## Limitações
-- **Desbalanceamento** - Pode degenerar para lista encadeada (O(n))
-- **Sem balanceamento automático** - Implementação básica não se auto-balanceia
-- **Memória adicional** - Necessário armazenar referências para filhos
-
 ## Como Utilizar
 
 ### Pré-requisitos
